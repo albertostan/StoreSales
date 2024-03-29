@@ -64,7 +64,7 @@ img {
     .container {
         display: block;
         max-width: 100%;
-        margin: 20px;
+        margin: 35px;
     }
     input[type="email"] {
         width: 100%;
