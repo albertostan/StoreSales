@@ -10,8 +10,6 @@ body {
 .container {
     gap: 50px;
     padding-top: 50px;
-    background-color: re
-
 }
 img {
     width: 350px;
@@ -30,8 +28,6 @@ img {
 
 .btn:hover {
     border: 2px solid;
-    border-color: lid;
-    
 }
 .btn:hover {
     background-color: #42eb4a;
