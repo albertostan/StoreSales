@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 165px 165px
+}
+.container {
+    gap: 20px;
+    padding-top: 50px;
+
+}
+img {
+    width: 350px;
+    height: 165px;
+    cursor: pointer;
+    border-radius: 10px
+}
+.btn {
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.btn:hover {
+    border: 2px solid;
+    border-color: black;
+    
+}
+#input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#subscribe {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+}
+#subscribe:hover {
+    background-color: #42eb4a;
+    border: 1px solid #42eb4a;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    .container {
+        display: block;
+        max-width: 80%;
+        margin: 20px auto;
+    }
+    input[type="email"] {
+        width: 100%;
+    }
+    button {
+        width: 100%;
+    }
+}
