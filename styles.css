@@ -58,7 +58,7 @@ img {
     }
     .container {
         display: block;
-        max-width: 80%;
+        max-width: 70%;
         margin: 20px auto;
     }
     input[type="email"] {
